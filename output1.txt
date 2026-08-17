@@ -1,0 +1,27 @@
+Enter the Bank Name:
+sbi
+Enter the user ID:
+73874
+Enter the user Name:
+Nandini
+Enter the Account Number:
+12345678990
+Enter the AccountType:
+savings
+Enter the Balance:
+9000
+Bank Name: sbi
+User Name: Nandini
+UserId: 73874
+Account Number: 12345678990
+Account Type: savings
+Account Balance: 9000.0
+Bank Name: sbi
+User NameNandini
+Account Number: 12345678990
+Account Type: savings
+Balance: 9000.0
+Enter the Minimum Balance
+1000
+Minimum balance is maintained.
+
