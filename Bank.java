@@ -5,6 +5,7 @@ class Bank{
     long accountNumber;
     String accountType;
     double balance;
+    
 
     Bank( String bankName,int userId,String userName,long accountNumber,String accountType,double balance){
             this.bankName=bankName;
@@ -28,7 +29,7 @@ class Bank{
         System.out.println("Account Balance: "+balance);
     }
     String accountSummary(){
-        String accountSummary="Bank Name: "+bankName+"\nUser Name"+userName+"\nAccount Number: "+accountNumber+"\nAccount Type: "+accountType+"\nBalance: "+balance;
+        String accountSummary="Bank Name: "+bankName+"\nUser Name: "+userName+"\nAccount Number: "+accountNumber+"\nAccount Type: "+accountType+"\nBalance: "+balance;
         return accountSummary;
     }
     boolean hasMinimumBalance(double minimumBalance){
@@ -37,9 +38,26 @@ class Bank{
             res=true;
         }
         return res;
-
     }
-    
+    boolean deposit(double amount){
+        if(amount>0){
+            balance=amount+balance;
+            return true;
+        }
+        else  return false;
+    }
+    boolean withdraw(double amount){
+        if(amount >0 && balance >= amount){
+            balance -= amount;
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    double checkBalance(){
+        return balance;
+    }
 
     }
 
