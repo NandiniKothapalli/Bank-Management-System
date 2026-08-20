@@ -1,27 +1,163 @@
-Enter the Bank Name:
+Enter the Number of accounts: 
+2
+Enter the Bank Name: 
 sbi
-Enter the user ID:
-73874
-Enter the user Name:
-Nandini
-Enter the Account Number:
-12345678990
-Enter the AccountType:
-savings
-Enter the Balance:
-9000
+Enter the user ID: 
+472
+Enter the user Name: 
+nandini
+Enter the Account Number: 
+9052660432
+Enter the AccountType: 
+s
+Enter the Balance: 
+1000
+Enter the Bank Name: 
+sbi
+Enter the user ID: 
+465
+Enter the user Name: 
+rani
+Enter the Account Number: 
+9502406964
+Enter the AccountType: 
+s
+Enter the Balance: 
+1500
+=============MENU=============
+1. Display Complete Details
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Display Amount Summary
+6. Check Minimum Balance
+0. Exit
+Enter the Choice:
+1
 Bank Name: sbi
-User Name: Nandini
-UserId: 73874
-Account Number: 12345678990
-Account Type: savings
-Account Balance: 9000.0
+User Name: nandini
+UserId: 472
+Account Number: 9052660432
+Account Type: s
+Account Balance: 1000.0
 Bank Name: sbi
-User NameNandini
-Account Number: 12345678990
-Account Type: savings
-Balance: 9000.0
+User Name: rani
+UserId: 465
+Account Number: 9502406964
+Account Type: s
+Account Balance: 1500.0
+=============MENU=============
+1. Display Complete Details
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Display Amount Summary
+6. Check Minimum Balance
+0. Exit
+Enter the Choice:
+2
+Enter the Account Number: 
+9052660472
+Account Not Found
+=============MENU=============
+1. Display Complete Details
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Display Amount Summary
+6. Check Minimum Balance
+0. Exit
+Enter the Choice:
+2
+Enter the Account Number: 
+9052660432
+Enter the Amount
+300
+Deposit is successful.
+Availabale balance.1300.0
+=============MENU=============
+1. Display Complete Details
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Display Amount Summary
+6. Check Minimum Balance
+0. Exit
+Enter the Choice:
+3
+Enter the Account Number: 
+9502406965
+Account Not Found
+=============MENU=============
+1. Display Complete Details
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Display Amount Summary
+6. Check Minimum Balance
+0. Exit
+Enter the Choice:
+3
+Enter the Account Number: 
+9502406964
+Enter the Amount
+300
+Withdraw is successful.
+Availabale balance.1200.0
+=============MENU=============
+1. Display Complete Details
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Display Amount Summary
+6. Check Minimum Balance
+0. Exit
+Enter the Choice:
+4
+Enter the Account Number: 
+9052660432
+Availabale balance.1300.0
+=============MENU=============
+1. Display Complete Details
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Display Amount Summary
+6. Check Minimum Balance
+0. Exit
+Enter the Choice:
+5
+Enter the Account Number: 
+9502406964
+Bank Name: sbi
+User Name: rani
+Account Number: 9502406964
+Account Type: s
+Balance: 1200.0
+=============MENU=============
+1. Display Complete Details
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Display Amount Summary
+6. Check Minimum Balance
+0. Exit
+Enter the Choice:
+6
+Enter the Account Number: 
+9052660432
 Enter the Minimum Balance
 1000
 Minimum balance is maintained.
+=============MENU=============
+1. Display Complete Details
+2. Deposit Amount
+3. Withdraw Amount
+4. Check Balance
+5. Display Amount Summary
+6. Check Minimum Balance
+0. Exit
+Enter the Choice:
+0
+Thank you!
 
